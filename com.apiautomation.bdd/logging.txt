@@ -1,0 +1,85 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "BHouse",
+    "phone_number": "+(91) 9839839838",
+    "address": "Sea Cross Center",
+    "website": "https://rahulshettyacademy.com",
+    "language": "French",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "Shoe Park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Jan 2020 18:41:49 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "51f44137b465f838cd5fb21c964b496f",
+    "scope": "APP",
+    "reference": "c0c61686a6af07ed03338b979495a1bcc0c61686a6af07ed03338b979495a1bc",
+    "id": "c0c61686a6af07ed03338b979495a1bc"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=51f44137b465f838cd5fb21c964b496f
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=51f44137b465f838cd5fb21c964b496f
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 23 Jan 2020 18:41:49 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 247
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "BHouse",
+    "phone_number": "+(91) 9839839838",
+    "address": "Sea Cross Center",
+    "types": "Shoe Park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "French"
+}
